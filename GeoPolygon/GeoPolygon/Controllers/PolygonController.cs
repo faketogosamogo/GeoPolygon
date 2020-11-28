@@ -63,9 +63,9 @@ namespace GeoPolygon.Controllers
             }catch(Exception ex)
             {
                 _logger.LogError($"Error of write polygon to file, address: {address}, fileName: {fileName}, ex: {ex.Message}, trace: {ex.StackTrace}");
-                return StatusCode(500);
+                return Ok(polygon);
             }
-            return Ok(polygon);
+            return StatusCode(201, polygon);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using GeoPolygon.GeoManagers;
 using GeoPolygon.GeoManagers.Exceptions;
-using GeoPolygon.IPolygonServices;
+using GeoPolygon.PolygonServices;
 using GeoPolygon.Models.GeoServices;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;

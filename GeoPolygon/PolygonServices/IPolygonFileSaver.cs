@@ -1,7 +1,7 @@
 ﻿using GeoPolygon.Models.GeoServices;
 using System.Threading.Tasks;
 
-namespace GeoPolygon.IPolygonServices
+namespace GeoPolygon.PolygonServices
 {
     /// <summary>
     /// Интерфейс сохранения полигона в файл

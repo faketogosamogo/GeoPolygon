@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace GeoPolygon.IPolygonServices
+namespace GeoPolygon.PolygonServices
 {
     public interface IPolygonFileJsonSaver : IPolygonFileSaver { }
 

@@ -1,5 +1,5 @@
 using GeoPolygon.GeoManagers;
-using GeoPolygon.IPolygonServices;
+using GeoPolygon.PolygonServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

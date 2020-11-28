@@ -51,6 +51,7 @@ namespace GeoPolygon.Controllers
                 _logger.LogError($"Exception while getting polygon by address: {address}, ex: {ex.Message} trace: {ex.StackTrace}");
                 return StatusCode(500);
             }
+            if(polygon==null) return NotFound($"Не найден полигон по адресу: {address}");
 
             if (accuracy != null)
             {

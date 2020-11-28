@@ -75,6 +75,10 @@ namespace GeoPolygon.GeoManagers
                 var multyCoordinates = coordinates.ToObject<decimal[][][][]>();
                 polygon.Coordinates = multyCoordinates[0];//Не понял точно как из мультиполигона переводить в полигон, поэтому беру первый элемент координат
             }
+            else
+            {
+                return null;
+            }
 
             return polygon;
         }
